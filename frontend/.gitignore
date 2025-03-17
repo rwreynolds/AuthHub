@@ -1,0 +1,138 @@
+# created by virtualenv automatically
+*# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyCharm project files
+.idea/
+*.iml
+*.iws
+out/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.dat
+*.sqlite
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+*.cover
+hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PyCharm specific files
+.idea/
+workspace.xml
+tasks.xml
+shelf/
+scratches/
+
+# VS Code files (if working across editors)
+.vscode/
+
+# JetBrains Python console history
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/shelf/
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Avoid committing large files
+*.bak
+*.swp
+*.swo
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore Celery task results
+celerybeat-schedule
+
+# Ignore coverage reports
+.coverage
+*.cover
+.hypothesis/
+
+# Ignore editable installs
+*.egg-info/
+.installed.cfg
+
+# Ignore PyCharm coverage results
+.idea/**/coverage/
+
+# Node.js related ignores
+node_modules/
+npm-debug.log
+yarn-error.log
+.yarn/
+.yarnrc
+.pnpm-debug.log
+.next/
+out/
+dist/
+build/
+.cache/
+
+# Ignore lock files (optional, if using a single package manager)
+# Uncomment the one you don't want to commit
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
